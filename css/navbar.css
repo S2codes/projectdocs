@@ -1,0 +1,108 @@
+/* Header/Navbar Styles */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    border-bottom: 1px solid var(--border-color);
+    z-index: 1000;
+    height: 70px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.logo i {
+    color: var(--secondary-color-1);
+    font-size: 1.5rem;
+}
+
+.logo small {
+    color: var(--text-secondary);
+    font-weight: 400;
+    font-size: 0.875rem;
+    margin-left: 0.5rem;
+}
+
+/* Search Container */
+.search-container {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+}
+
+.search-icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.75rem 1rem 0.75rem 2.5rem;
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--secondary-color-1);
+    box-shadow: 0 0 0 3px rgba(0, 212, 146, 0.1);
+}
+
+.search-input::placeholder {
+    color: var(--text-muted);
+}
+
+/* Responsive Design for Navbar */
+@media (max-width: 768px) {
+    .header-content {
+        padding: 0 1rem;
+    }
+    
+    .search-container {
+        max-width: 200px;
+    }
+    
+    .logo span {
+        display: none;
+    }
+    
+    .logo small {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .search-container {
+        display: none;
+    }
+}
+
+/* Focus styles for navbar elements */
+.search-input:focus {
+    outline: 2px solid var(--secondary-color-1);
+    outline-offset: 2px;
+} 

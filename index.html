@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechDocs - Knowledge Base</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar will be injected here by navbar.js -->
+
+    <div class="container">
+        <!-- Sidebar will be injected here by sidebar.js -->
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content-wrapper">
+                <!-- Introduction Section -->
+                <section id="introduction" class="content-section active">
+                    <h1 class="page-title">Introduction</h1>
+                    
+                    <div class="author-info">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-details">
+                            <h4 class="author-name">Subhankar Sarkar</h4>
+                            <p class="author-meta">Software Developer | Electronics & Robotics Enthusiast</p>
+                        </div>
+                    </div>
+
+                    <div class="content-body">
+                        <p class="lead">Welcome to the TechDocs documentation - your comprehensive guide to building modern web applications.</p>
+                        
+                        <p>This documentation template provides everything you need to create professional documentation websites. Built with modern web technologies and designed for optimal user experience, it includes pre-built components that can be easily customized to match your brand.</p>
+
+                        <div class="video-container">
+                            <div class="video-placeholder">
+                                <div class="video-overlay">
+                                    <i class="fas fa-play video-play-btn"></i>
+                                    <div class="video-info">
+                                        <h3>Getting Started Tutorial</h3>
+                                        <p>Learn the basics in 5 minutes</p>
+                                    </div>
+                                </div>
+                                <div class="video-thumbnail"></div>
+                            </div>
+                        </div>
+
+                        <div class="feature-grid">
+                            <div class="feature-card">
+                                <i class="fas fa-rocket feature-icon"></i>
+                                <h3>Fast Setup</h3>
+                                <p>Get your documentation site running in minutes with our streamlined setup process.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-mobile-alt feature-icon"></i>
+                                <h3>Responsive Design</h3>
+                                <p>Looks great on all devices with our mobile-first responsive design approach.</p>
+                            </div>
+                            <div class="feature-card">
+                                <i class="fas fa-search feature-icon"></i>
+                                <h3>Powerful Search</h3>
+                                <p>Built-in search functionality helps users find what they need quickly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Components Section -->
+                <section id="components" class="content-section">
+                    <h1 class="page-title">Components</h1>
+                    <div class="content-body">
+                        <p class="lead">Explore the available components and learn how to use them effectively.</p>
+                        
+                        <h2>Available Components</h2>
+                        <ul class="component-list">
+                            <li><strong>Navigation:</strong> Sidebar navigation with collapsible sections</li>
+                            <li><strong>Search:</strong> Real-time search functionality</li>
+                            <li><strong>Content Cards:</strong> Flexible content containers</li>
+                            <li><strong>Code Blocks:</strong> Syntax-highlighted code examples</li>
+                        </ul>
+
+                        <div class="code-example">
+                            <h3>Example Code Block</h3>
+                            <pre><code>&lt;div class="example"&gt;
+  &lt;h1&gt;Hello World&lt;/h1&gt;
+  &lt;p&gt;This is an example component.&lt;/p&gt;
+&lt;/div&gt;</code></pre>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Other sections would be added similarly -->
+                <section id="installation" class="content-section">
+                    <h1 class="page-title">Installation</h1>
+                    <div class="content-body">
+                        <p class="lead">Quick and easy installation guide to get you started.</p>
+                        
+                        <h2>Prerequisites</h2>
+                        <ul>
+                            <li>Modern web browser</li>
+                            <li>Text editor or IDE</li>
+                            <li>Basic knowledge of HTML, CSS, and JavaScript</li>
+                        </ul>
+
+                        <h2>Installation Steps</h2>
+                        <ol class="installation-steps">
+                            <li>Download the template files</li>
+                            <li>Extract to your project directory</li>
+                            <li>Open index.html in your browser</li>
+                            <li>Start customizing!</li>
+                        </ol>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
