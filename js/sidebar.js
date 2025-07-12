@@ -21,25 +21,25 @@ class Sidebar {
                         <h3 class="nav-title">Software Development</h3>
                         <ul class="nav-list">
                             <li class="nav-item">
-                                <a href="/software-development/software-development.html#web-dev" class="nav-link" data-page="software-development" data-section="web-dev">
+                                <a href="./software-development/software-development.html#web-dev" class="nav-link" data-page="software-development" data-section="web-dev">
                                     <i class="fas fa-code"></i>
                                     Web Development
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/software-development/software-development.html#mobile-dev" class="nav-link" data-page="software-development" data-section="mobile-dev">
+                                <a href="./software-development/software-development.html#mobile-dev" class="nav-link" data-page="software-development" data-section="mobile-dev">
                                     <i class="fas fa-mobile-alt"></i>
                                     Mobile Development
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/software-development/software-development.html#backend" class="nav-link" data-page="software-development" data-section="backend">
+                                <a href="./software-development/software-development.html#backend" class="nav-link" data-page="software-development" data-section="backend">
                                     <i class="fas fa-server"></i>
                                     Backend Development
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/software-development/software-development.html#devops" class="nav-link" data-page="software-development" data-section="devops">
+                                <a href="./software-development/software-development.html#devops" class="nav-link" data-page="software-development" data-section="devops">
                                     <i class="fas fa-infinity"></i>
                                     DevOps
                                 </a>
@@ -51,25 +51,25 @@ class Sidebar {
                         <h3 class="nav-title">Robotics</h3>
                         <ul class="nav-list">
                             <li class="nav-item">
-                                <a href="/robotics/robotics.html#robot-basics" class="nav-link" data-page="robotics" data-section="robot-basics">
+                                <a href="./robotics/robotics.html#robot-basics" class="nav-link" data-page="robotics" data-section="robot-basics">
                                     <i class="fas fa-robot"></i>
                                     Robotics Basics
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/robotics/robotics.html#ros" class="nav-link" data-page="robotics" data-section="ros">
+                                <a href="./robotics/robotics.html#ros" class="nav-link" data-page="robotics" data-section="ros">
                                     <i class="fas fa-cogs"></i>
                                     ROS Programming
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/robotics/robotics.html#computer-vision" class="nav-link" data-page="robotics" data-section="computer-vision">
+                                <a href="./robotics/robotics.html#computer-vision" class="nav-link" data-page="robotics" data-section="computer-vision">
                                     <i class="fas fa-eye"></i>
                                     Computer Vision
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/robotics/robotics.html#ai-robotics" class="nav-link" data-page="robotics" data-section="ai-robotics">
+                                <a href="./robotics/robotics.html#ai-robotics" class="nav-link" data-page="robotics" data-section="ai-robotics">
                                     <i class="fas fa-brain"></i>
                                     AI in Robotics
                                 </a>
@@ -81,25 +81,25 @@ class Sidebar {
                         <h3 class="nav-title">Electronics</h3>
                         <ul class="nav-list">
                             <li class="nav-item">
-                                <a href="/electronics/electronics.html#circuits" class="nav-link" data-page="electronics" data-section="circuits">
+                                <a href="./electronics/electronics.html#circuits" class="nav-link" data-page="electronics" data-section="circuits">
                                     <i class="fas fa-microchip"></i>
                                     Circuit Design
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/electronics/electronics.html#arduino" class="nav-link" data-page="electronics" data-section="arduino">
+                                <a href="./electronics/electronics.html#arduino" class="nav-link" data-page="electronics" data-section="arduino">
                                     <i class="fas fa-memory"></i>
                                     Arduino Projects
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/electronics/electronics.html#raspberry-pi" class="nav-link" data-page="electronics" data-section="raspberry-pi">
+                                <a href="./electronics/electronics.html#raspberry-pi" class="nav-link" data-page="electronics" data-section="raspberry-pi">
                                     <i class="fas fa-dice"></i>
                                     Raspberry Pi
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/electronics/electronics.html#iot" class="nav-link" data-page="electronics" data-section="iot">
+                                <a href="./electronics/electronics.html#iot" class="nav-link" data-page="electronics" data-section="iot">
                                     <i class="fas fa-network-wired"></i>
                                     IoT Development
                                 </a>
